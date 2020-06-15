@@ -1,14 +1,14 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 
 
+/* Importando as telas */
+import 'package:the_good_bot/screens/home_screen.dart';
 import 'package:the_good_bot/screens/login_screen.dart';
 
 
-import 'package:the_good_bot/models/login_model.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +25,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginScreen(),
+        '/tela-inicial': (context) => HomeScreen(),
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }

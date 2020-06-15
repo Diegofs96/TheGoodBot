@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "good-bot-tdiavi",
+    "private_key_id": "bf5f6a4195cba93eaad2d7dcbd3a1f91f9096252",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDBjqagfAos+IvM\ngc7+upr2xbm1l+NxnFrVIBgdZ1jTre9WPaf1oknk4q5n7KZHAAYJPlwymPWBw23s\nj3yMNNwFRDjD2sSM9JACvhh40uvhBNOyI3nysdtUCsripkItPZdh+Gc1ppO0FmEC\nmhvkl60yJTplX4acW68avUmXYoh9gbFpPQBC2aTcvnkudJNigmMJ6PkkcSzm5eWY\nVrLH6z5qkOV7AHKMeOCyZtNVJP6wnazm85C3RtbIX5g+KEtutwxtZBJ2cYKgQOVY\nXJxc+KS7RiB5puxiebmxfcXeBtzSQlqvTH1UEPsUOPqSaB5Zm5DeKWhftKz+eF8U\nzAs4weTdAgMBAAECggEALMC/9CFZ9PXu1PU6mBkrVV14R+17kDw3oEmQadQIbMEt\nsoIFAL1qWnqzGqJT+9yciKybgrNtKHi4RNcUVBKwwKL6gQZnJbQyTAAKBn22Pkvw\naqLbQmsvLCpmqKsKaA1yoBtgOb5vLldyTLi3NE6BpDOJYgEJTcPBI+yaRF9q8aGQ\nrUFMl42mHJAxlaqgUsdTQpGVtWjTKD1LcgCLZCOVtPAAjAC+bjQ5RT0zokkvZi9a\nEBfWYhGml7va6/QDUEixq96q6onEqV5rcEjZMoPOOCy9xIB6U9Tr9OeFLx5p99zx\nxTn0Dp9HlVbKfubiEY4FWZ4k61wRy89iiaglOU+c3QKBgQD00rtr2Nb4wuWVA45j\nR9NQSykzECd73XO3l0fnoXB1SnyYbxY3zRvhQBdl3frkGt2ly3v8uFXD8vo4HwfI\nISuzGEmMFOQnzqNZ53/h6sVUb0LOOtP1LoVZkmukiS09RznPDyj/IDT8aVgiN22Y\nqkEritj7NAy8samlzXLpoNwmqwKBgQDKZMUGSNNsqLwEL0nDaoP98zEYqK3Dmkpd\ndJCJFPXqCybxsuB5YC+2hdC0jHRTdkNk3Qb8dIaYH5r0COl7x6gR8b4D3mgdwqVJ\nGg3h+QRrYP8U7oVoFfIuyvZ0rWZvpJiTbYchi1UkAqwAnqr3nO/PnSankNYgC6SZ\nqy6k2s1ClwKBgQCo29gtMGhFN5fFyaghzd5v2QdXkuLIyhsQG6Wam3zHSVLaiHQY\nlL2QBPaeahar0ePigJDJ5BIzjpkKsExbupU7d5rypU4gLqP4VHWdyqHD9OFtAKJE\nz4tmFllsKLktNL0olVo/bWVeWwJQx04uJ++/Kosx59qJIzjRhPynKy3s9QKBgQCU\nA03zYp78AApAJTUUrHkK5ycomXM6cUOhRPXOyn1tQ+qfJ+nx2d4K5aHT6EPKJdrz\nkJDjX3RvG+3+OeZGl6TaOqhzu9r4qLin1V4BvFL3FGB3tlfp3uLWRagnfAhF7WGH\nr7n7ViJVy35ulZsCqsrWUl9KfCmcFeeyWfYqqbki0QKBgQDOG2DMP6hvi22dVzHd\nTBws1gGrQciPfzuimPb+5bMZDIv2wC1u4bBM4/MEgGTNVrAMDeMV7aoJn+KXvRtP\nI3+McHRsorWL0oxE5jUr075NjOc0W6GPH6ogSvGHgIG0/aDrzM2Cot5Qq++R0Y1F\ntkJ6zlQGQ3WAR9aehFXPxkpyDw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "the-good-bot@good-bot-tdiavi.iam.gserviceaccount.com",
+    "client_id": "100640364296413340822",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/the-good-bot%40good-bot-tdiavi.iam.gserviceaccount.com"
+  }
+  
