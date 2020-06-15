@@ -82,7 +82,8 @@ class LoginScreen extends StatelessWidget {
               ButtonComponent(
                 title: "Entrar",
                 hasBorder: true,
-                fontSize: 20.0
+                fontSize: 20.0,
+                rota: '/tela-inicial',                
               ), 
               SizedBox(
                 height: 20.0,
