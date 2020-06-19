@@ -7,6 +7,9 @@ import 'package:the_good_bot/shared/globals.dart';
 
 
 class LoginModel extends ChangeNotifier {
+  Global global = new Global();
+
+
   get isVisible => _isVisible;
   bool _isVisible = false;
   set isVisible(value){
@@ -28,6 +31,9 @@ class LoginModel extends ChangeNotifier {
     notifyListeners();
     
   }
+
+ 
+  
 
 
 

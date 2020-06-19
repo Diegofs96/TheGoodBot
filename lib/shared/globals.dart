@@ -16,4 +16,12 @@ class Global{
   // Imagens
   String imageLogo = "good_bot_background.png";
 
+
+  String nome = 'Você';
+
+
+  
+
+  
+  
 }

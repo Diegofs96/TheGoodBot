@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:the_good_bot/components/chat_message_list_item.dart';
 import 'package:the_good_bot/models/chat_message.dart';
+import 'package:the_good_bot/respository/chat_message_repository.dart';
+import 'package:the_good_bot/shared/globals.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -12,6 +14,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final _messageList = <ChatMessage>[];
   final _controllerText = new TextEditingController();
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+  Global global = new Global();
 
   @override
   void dispose() {
@@ -21,7 +25,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(      
+      key: scaffoldKey,
       appBar: new AppBar(
         title: Text('Seja bem-vindo ao Good Bot!'),
       ),
@@ -50,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // Envia uma mensagem com o padrão a direita
   void _sendMessage({String text}) {
     _controllerText.clear();
-    _addMessage(name: 'Você', text: text, type: ChatMessageType.sent);
+    _addMessage(name: '${global.nome}', text: text, type: ChatMessageType.sent);
   }
 
   // Adiciona uma mensagem na lista de mensagens
@@ -64,6 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (type == ChatMessageType.sent) {
       // Envia a mensagem para o chatbot e aguarda sua resposta
       _dialogFlowRequest(query: message.text);  
+      new ChatMessageRepository().createRaw(message);
     }
   }
   

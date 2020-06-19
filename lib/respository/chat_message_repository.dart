@@ -14,7 +14,7 @@ class ChatMessageRepository{
     _databaseHelper = new DatabaseHelper();
   }
   
-
+  //Listar todos
   Future<List<ChatMessage>> findAll() async {
     var connection = await _databaseHelper.connection;
     var result = await connection.query(
@@ -34,6 +34,34 @@ class ChatMessageRepository{
 
     return listaCursos;
 
+  }
+
+
+  //Criar
+ Future<int> create(ChatMessage chatMessage) async {
+    var connection = await _databaseHelper.connection;
+    var result = await connection.insert(
+      "ChatMessage",
+      chatMessage.toMap(),
+    );
+    return result;
+  }
+
+  //Inserir
+  Future<int> createRaw(ChatMessage chatMessage) async {
+    var connection = await _databaseHelper.connection;
+    var sqlCommand = " INSERT INTO ChatMessage ( " +
+        "  name , " +
+        "  text , " +
+        "  type ) " +
+        "VALUES ( " +
+        "    '${chatMessage.name}' , " +
+        "    '${chatMessage.text}' , " +
+        "    '${chatMessage.type}' " +
+        "  ) ";
+
+    var result = await connection.rawInsert(sqlCommand);
+    return result;
   }
 
 }
